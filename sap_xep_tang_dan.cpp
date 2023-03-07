@@ -40,7 +40,7 @@ int main()
     do{
         cout << "nhap so phan tu mang: ";
         cin >> n;
-    }while(n <= 0);
+    }while(n < 0);
      
     int a[n];
      
